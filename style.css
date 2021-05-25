@@ -1,0 +1,225 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  text-decoration: none;
+  color: #5cb874;
+}
+
+a:hover {
+  color: #80c792;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 18pt;
+  padding: 10px;
+  position: center;
+}
+
+h2, h3, h4, h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20pt;
+  padding: 10px;
+}
+
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16pt;
+  line-height:1.4;
+}
+
+.p1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16pt;
+  padding: 10px;
+  font-weight:600;
+
+}
+
+/*--------------------------------------------------------------
+# Caroussel
+--------------------------------------------------------------*/
+.carousel-item {
+  height: 35rem;
+  background-color: black;
+  color: white;
+  position: relative;
+  margin-top: 200px;}
+
+.conteiner {
+  position: absolute;
+  left: 200px;
+  top: 80px;
+  background-color:rgba(255, 255, 255, 0.603)}  
+
+.sombrat{ 
+  text-shadow: black -20px -20px 50px;
+  font-family: 'Anton', sans-serif;}
+
+.overlay-image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right:0;
+  top: 0;
+  background-position: center;
+  background-size:cover;
+  opacity:1;}
+
+/*
+# Anfragemargin
+*/
+
+.margin-top {
+  margin-top: 350px;
+}
+
+/*
+# grid template
+*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #f3c221b0;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  padding: 20px;
+}
+
+/*
+# Neavbar
+*/
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 40px 30px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: left;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 20px;
+  border-radius: 4px;
+  margin-left:20px;
+}
+
+#navbar #logo {
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: rgba(221, 221, 221, 0);
+  color: black;
+}
+
+#logo a:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#navbar a.active {
+  background-color: rgb(103, 0, 221);
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 720px) {
+  #navbar {
+    padding: 10px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+    margin-right: 20px;
+  }
+
+.grid-container {
+  display:block;
+  height: auto;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #f3c221b0;
+  padding: 10px;
+  text-align:center;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  padding: 20px 0;
+  font-size: auto;
+}
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+  background:  #333;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 100px;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
